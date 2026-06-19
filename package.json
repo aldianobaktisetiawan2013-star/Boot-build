@@ -1,0 +1,22 @@
+{
+  "name": "web2apk-bot",
+  "version": "1.0.0",
+  "description": "Bot Telegram: kirim ZIP project Flutter, dapat APK hasil build via GitHub Actions.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.12",
+    "dotenv": "^16.4.5",
+    "telegram": "^2.22.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "license": "MIT"
+}
